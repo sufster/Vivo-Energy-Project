@@ -1,0 +1,82 @@
+.timeline{
+    margin: 0 auto;
+    max-width: 930px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+}
+
+.contain{
+    margin: 0 20px 20px 20px;
+}
+.heading-right{
+    text-align: right;
+}
+.bg--contains{
+    background-color: rgb(108, 211, 76);
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    font-size: 1.15em;
+    margin: 0;
+    font-weight: bold;
+    font-family: palantino;
+    
+}
+.descript{
+    line-height: 1.15;
+}
+
+.spacer{
+  position: relative;
+}
+
+.start {
+  background-color: rgb(108, 211, 76);
+    border: none;
+    color: rgb(10, 74, 95);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    position: relative;
+    left: 29%;
+    clip-path: polygon(0% 0px, 95% 0px, 100% 50%, 100% 100%, 4% 100%, 0px 50%);
+    width: 50%;
+    font-size: 30px;
+    font-family:palantino;
+  }
+
+  .btn:hover{
+    background-color: rgb(21, 130, 167);
+    clip-path: polygon(4% 0, 100% 0%, 100% 50%, 96% 100%, 0% 100%, 0 50%);
+    color: white;
+    
+  }
+  .banner{
+    text-align: center;
+    background-color: rgb(108, 211, 76);
+    border-radius: 0px 25px 0px 25px;
+}
+.link{
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 0px 0px 0px 0px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+ul{
+  list-style-type: disclosure-closed;
+}
+
+p.contact {
+  font: message-box;
+  margin: 0;
+  padding: 35px 35px 35px 80px;
+  font-size: 20px;
+}
